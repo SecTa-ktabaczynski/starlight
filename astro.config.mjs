@@ -6,6 +6,9 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
+    site: 'https://SecTa-ktabaczynski.github.io',
+    base: '/starlight',
+
     integrations: [starlight({
         title: 'My Docs',
         social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
