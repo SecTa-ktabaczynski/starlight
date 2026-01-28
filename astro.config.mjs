@@ -11,12 +11,12 @@ export default defineConfig({
   base: '/starlight',
 
   integrations: [
-    // ✅ CORRECT ORDER:
-    astroExpressiveCode(),  // 1st - processes code blocks
-    mdx(),                  // 2nd - processes MDX
-    starlight({             // 3rd
+    astroExpressiveCode(),
+    mdx(),
+    starlight({
       title: 'My Docs',
       sidebar: [
+        { label: 'Wszystkie dokumenty', link: '/all-docs/' },
         {
           label: 'Guides',
           items: [

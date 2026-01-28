@@ -3,11 +3,11 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "python3 generate_docs.py && astro dev",
+    "start": "python3 generate_docs.py && astro dev",
+    "build": "python3 generate_docs.py && astro build",
+    "preview": "python3 generate_docs.py && astro preview",
+    "astro": "python3 generate_docs.py && astro"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",

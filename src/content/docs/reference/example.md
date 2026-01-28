@@ -1,6 +1,7 @@
 ---
 title: Example Reference
 description: A reference page in my new Starlight docs site.
+pubDate: "2026-01-26T11:00:00Z"
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.
